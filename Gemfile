@@ -97,3 +97,6 @@ gem 'font-awesome-rails'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'sprockets'
 gem 'sass-rails'
+
+# Heroku LoadError: Please install the postgresql adapter: (pg is not part of the bundle)
+gem 'activerecord-postgresql-adapter'

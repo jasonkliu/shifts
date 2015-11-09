@@ -24,6 +24,8 @@ GEM
       tzinfo (~> 0.3.29)
     activerecord-import (0.7.0)
       activerecord (>= 3.0)
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (3.2.21)
       activemodel (= 3.2.21)
       activesupport (= 3.2.21)
@@ -181,6 +183,7 @@ GEM
       activesupport (>= 3.0.0)
       cocaine (~> 0.5.3)
       mime-types
+    pg (0.18.3)
     polyglot (0.3.5)
     pry (0.10.1)
       coderay (~> 1.1.0)
@@ -310,6 +313,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-import
+  activerecord-postgresql-adapter
   annotate
   authlogic
   better_errors
